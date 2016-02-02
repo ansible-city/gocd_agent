@@ -1,7 +1,7 @@
 ---
 
 gocd_agent:
-  version: "15.1.*"
+  version: "16.1.*"
   name: default
   user: go
   user_dir: /home/go

@@ -1,7 +1,7 @@
 ---
 
-- name: ansible-city.java
+- src: ansible-city.java
   version: v1.0
 
-- name: ansible-city.users_and_groups
+- src: ansible-city.users_and_groups
   version: v1.0
