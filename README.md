@@ -38,7 +38,7 @@ To install this role run `ansible-galaxy install ansible-city.gocd_agent`
 or add this to your `roles.yml`
 
 ```YAML
-- name: ansible-city.gocd_agent
+- src: ansible-city.gocd_agent
   version: v1.0
 ```
 
@@ -75,7 +75,7 @@ To simply install GO CD agent:
         - build
 
   roles:
-    - name: ansible-city.gocd_agent
+    - role: ansible-city.gocd_agent
       gocd_agent:
         server: IP.OR.URL.OF.THE.GOCD.SERVER
 ```
